@@ -8,14 +8,13 @@ import GA from '@/components/GA';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Modifio - Free Unlimited File Converter',
-  description: `Unleash your creativity with Modifio – the ultimate online tool for
-  unlimited and free multimedia conversion. Transform images, audio, and
-  videos effortlessly, without restrictions. Start converting now and
-  elevate your content like never before!`,
-  creator: 'SOUHAIL BEN-LHACHEMI',
+  title: 'Convertisseur de fichiers illimité gratuit - Transformez vos fichiers facilement en ligne',
+  description: `Utilisez notre convertisseur de fichiers illimité gratuit pour transformer divers formats en ligne. 
+  Conversion rapide et facile sans limites. 
+  Convertissez vos fichiers en toute simplicité!`,
+  creator: 'DIMER BWIMBA',
   keywords:
-    'image converter, video converter, audio converter, unlimited image converter, unlimited video converter',
+    'convertir pdf en word, convertir youtube mp3, convertir word en pdf, convertir jpg en pdf, convertir pdf en jpg, convertir en pdf, convertir pdf en jpeg, convertir youtube en mp3, convertir mp3, convertir pdf en word gratuit, convertir heic en jpg, convertir pdf en excel, convertir image en pdf, convertir mp4 en mp3, convertir photo en pdf, convertir png en pdf',
 };
 
 export default function RootLayout({
@@ -30,7 +29,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <Toaster />
-        <div className="pt-32 min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl">
+        <div className="pt-32 min-h-screen lg:pt-36 2xl:pt-44 container max-w-2xl lg:max-w-3xl 2xl:max-w-4xl">
           {children}
         </div>
       </body>
