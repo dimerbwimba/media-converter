@@ -5,17 +5,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { ImSpinner4 } from "react-icons/im";
 import { useToast } from "@/components/ui/use-toast";
 import axios from 'axios';
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-    title: 'Convertir Youtube en MP3 - Cinvertissez vos fichiers facilement en ligne',
-    description: `Utilisez notre convertisseur de fichiers illimité gratuit pour transformer divers formats en ligne. 
-    Conversion rapide et facile sans limites. 
-    Convertissez vos fichiers en toute simplicité!`,
-    creator: 'DIMER BWIMBA',
-    keywords:
-      'convertir pdf en word, convertir youtube mp3, convertir word en pdf, convertir jpg en pdf, convertir pdf en jpg, convertir en pdf, convertir pdf en jpeg, convertir youtube en mp3, convertir mp3, convertir pdf en word gratuit, convertir heic en jpg, convertir pdf en excel, convertir image en pdf, convertir mp4 en mp3, convertir photo en pdf, convertir png en pdf',
-  };
 const YoutubeToMp3 = () => {
     const [url, setUrl] = useState("")
     const [loading, setLoading] = useState(false)
