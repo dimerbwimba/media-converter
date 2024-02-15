@@ -443,7 +443,7 @@ export default function Dropzone() {
                   <LuFileSymlink />
                 </div>
                 <h3 className="text-center font-medium text-2xl">
-                  Yes, right there
+                  Bien sûr, juste là.
                 </h3>
               </>
             ) : (
@@ -452,7 +452,7 @@ export default function Dropzone() {
                   <FiUploadCloud />
                 </div>
                 <h3 className="text-center font-medium text-2xl">
-                  Click, or drop your files here
+                  Cliquez ou déposez vos fichiers ici.
                 </h3>
               </>
             )}
